@@ -1,0 +1,1 @@
+COPY coviddeaths FROM 'your_file.csv' WITH (CSV, HEADER=TRUE, DELIMITER=',', QUOTE='"', DECIMAL '.' );
